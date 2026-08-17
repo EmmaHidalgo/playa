@@ -9,13 +9,13 @@
 }
 .cajitaamarilla{
     border-radius: 24px;
-    min-width: 350px;
+    min-width: 320px;
     border : 2px solid rgb(121, 165, 193);
     width: 25%;
     height: 250px;
 }
 .cajitaazul{
-    min-width:350px ;
+    min-width:320px ;
     color: white;
     padding: 16px;
     width: 50%;
@@ -23,7 +23,7 @@
 background-color: rgb(61, 98, 146);
 }
 .cajitaroja{
-    min-width: 350px;
+    min-width: 320px;
     color: white;
     padding: 16px;
     width: 50%;
@@ -32,14 +32,14 @@ background-color: rgb(61, 98, 146);
 }
 .cajitaverde{
     border-radius: 24px;
-    min-width: 350px;
+    min-width: 320px;
 border: 2px solid rgb(163, 241, 231);
    width: 25%; 
    height: 250px;
 }
 .negra{
     border-radius: 24px;
-    min-width: 150px;
+    min-width: 120px;
     width: 25%;
     height: 250px;
     border: 2px solid rgb(104, 143, 229);
