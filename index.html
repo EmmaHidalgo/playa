@@ -1,40 +1,75 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cajitas de colores</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="cajitanegra"> 
-        <div class="cajitaamarilla">
-            <img src="fotoeje.jpeg" alt="">
-        </div>
-        <div class="cajitaazul">
-            <h2>media luna</h2>
-            <p>Yo estuve practicando en el la playa hasta que al final ya pude sii </p>
-        </div>
-    </div>
-    <div class="cajitanegra">
-        <div class="cajitaroja">
-            <h2>comiendo langosta</h2>
-            <p>Comi la langosta y esta muy rica y tambien me dieron pulpo frito</p>
-        </div>
-        <div class="cajitaverde">
-            <img src="foto lag.jpeg" alt="">
-        </div>
-    </div>
-    <div class="cajitanegra">
-        <div class="negra">
-            <img src="foto1.jpeg" alt="">
-        </div>
-        <div class="negra">
-            <img src="fotou.jpeg" alt="">
-        </div>
-        <div class="negra">
-            <img src="fot.jpeg" alt="">
-        </div>
-    </div>
-</body>
-</html>
+.cajitanegra{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    width: 80vw;
+    padding: 20px;
+}
+.cajitaamarilla{
+    border-radius: 24px;
+    min-width: 320px;
+    border : 2px solid rgb(121, 165, 193);
+    width: 25%;
+    height: 250px;
+}
+.cajitaazul{
+    min-width:320px ;
+    color: white;
+    padding: 16px;
+    width: 50%;
+    height: 250px;
+background-color: rgb(61, 98, 146);
+}
+.cajitaroja{
+    min-width: 320px;
+    color: white;
+    padding: 16px;
+    width: 50%;
+    height: 250px;
+    background-color: rgb(110, 155, 158);
+}
+.cajitaverde{
+    border-radius: 24px;
+    min-width: 320px;
+border: 2px solid rgb(163, 241, 231);
+   width: 25%; 
+   height: 250px;
+}
+.negra{
+    border-radius: 24px;
+    min-width: 120px;
+    width: 25%;
+    height: 250px;
+    border: 2px solid rgb(104, 143, 229);
+}
+body{
+    background-color: rgb(7, 184, 184);
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cajitaamarilla img{
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+}
+.cajitaverde img{
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+} 
+.negra img{
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 26px;
+}
